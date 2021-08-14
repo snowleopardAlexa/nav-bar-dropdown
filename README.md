@@ -1,1 +1,1 @@
-Responsive navbar with dropdown
+Responsive navbar with dropdown.
