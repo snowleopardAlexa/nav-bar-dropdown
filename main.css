@@ -45,3 +45,12 @@ nav ul ul {
     position: absolute;
     top: 70px;
 }
+
+nav ul ul li {
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom:rgb(151, 36, 7);
+}
