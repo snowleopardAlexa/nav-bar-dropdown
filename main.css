@@ -43,13 +43,20 @@ nav ul li a {
 
 nav ul li a:hover {
     box-shadow: 0 0 5px rgb(13, 13, 156),
-                0 0 5px blue;
+                0 0 5px rgb(28, 28, 196);
+    border-radius: 3px;
+    color:rgb(13, 13, 156);
 }
 
 nav ul ul {
     position: absolute;
     top: 70px;
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+nav ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
 }
 
 nav ul ul li {
