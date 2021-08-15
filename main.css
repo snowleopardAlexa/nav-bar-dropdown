@@ -53,8 +53,10 @@ nav ul ul {
     top: 70px;
     opacity: 0;
     visibility: hidden;
+    transition: top .3s;
 }
 nav ul li:hover > ul {
+    top: 80px;
     opacity: 1;
     visibility: visible;
 }
