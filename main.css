@@ -50,11 +50,21 @@ nav ul li a:hover {
 
 nav ul ul {
     position: absolute;
-    top: 70px;
+    top: 90px;
     opacity: 0;
     visibility: hidden;
     transition: top .3s;
 }
+
+nav ul ul li a {
+    line-height: 50px;
+}
+
+nav ul ul li a:hover {
+    color:rgb(13, 13, 156);
+    box-shadow: none;
+}
+
 nav ul li:hover > ul {
     top: 80px;
     opacity: 1;
