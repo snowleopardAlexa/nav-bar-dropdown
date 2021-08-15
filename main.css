@@ -54,3 +54,18 @@ nav ul ul li {
     display: list-item;
     border-bottom:rgb(151, 36, 7);
 }
+
+nav ul ul ul li {
+    position: relative;
+    top: -70px;
+    left: 150px;
+}
+
+nav .logo {
+    float: left;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+}
